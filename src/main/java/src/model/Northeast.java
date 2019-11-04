@@ -29,4 +29,11 @@ public class Northeast {
         this.lng = lng;
     }
 
+    @Override
+    public String toString() {
+        return "Northeast{" +
+                "lat=" + lat +
+                ", lng=" + lng +
+                '}';
+    }
 }

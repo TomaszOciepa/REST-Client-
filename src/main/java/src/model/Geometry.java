@@ -29,4 +29,11 @@ public class Geometry {
         this.viewport = viewport;
     }
 
+    @Override
+    public String toString() {
+        return "Geometry{" +
+                "location=" + location +
+                ", viewport=" + viewport +
+                '}';
+    }
 }

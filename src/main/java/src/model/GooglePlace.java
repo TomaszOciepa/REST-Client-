@@ -52,4 +52,13 @@ public class GooglePlace {
         this.status = status;
     }
 
+    @Override
+    public String toString() {
+        return "GooglePlace{" +
+                "htmlAttributions=" + htmlAttributions +
+                ", nextPageToken='" + nextPageToken + '\'' +
+                ", results=" + results +
+                ", status='" + status + '\'' +
+                '}';
+    }
 }

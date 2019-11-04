@@ -29,4 +29,11 @@ public class Viewport {
         this.southwest = southwest;
     }
 
+    @Override
+    public String toString() {
+        return "Viewport{" +
+                "northeast=" + northeast +
+                ", southwest=" + southwest +
+                '}';
+    }
 }

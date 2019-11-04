@@ -29,4 +29,11 @@ public class Location {
         this.lng = lng;
     }
 
+    @Override
+    public String toString() {
+        return "Location{" +
+                "lat=" + lat +
+                ", lng=" + lng +
+                '}';
+    }
 }

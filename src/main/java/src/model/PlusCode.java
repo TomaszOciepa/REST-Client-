@@ -29,4 +29,11 @@ public class PlusCode {
         this.globalCode = globalCode;
     }
 
+    @Override
+    public String toString() {
+        return "PlusCode{" +
+                "compoundCode='" + compoundCode + '\'' +
+                ", globalCode='" + globalCode + '\'' +
+                '}';
+    }
 }

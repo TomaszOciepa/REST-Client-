@@ -173,4 +173,24 @@ public class Result {
         this.priceLevel = priceLevel;
     }
 
+    @Override
+    public String toString() {
+        return "Result{" +
+                "geometry=" + geometry +
+                ", icon='" + icon + '\'' +
+                ", id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", photos=" + photos +
+                ", placeId='" + placeId + '\'' +
+                ", reference='" + reference + '\'' +
+                ", scope='" + scope + '\'' +
+                ", types=" + types +
+                ", vicinity='" + vicinity + '\'' +
+                ", plusCode=" + plusCode +
+                ", rating=" + rating +
+                ", userRatingsTotal=" + userRatingsTotal +
+                ", openingHours=" + openingHours +
+                ", priceLevel=" + priceLevel +
+                '}';
+    }
 }

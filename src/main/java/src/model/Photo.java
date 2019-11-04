@@ -52,4 +52,13 @@ public class Photo {
         this.width = width;
     }
 
+    @Override
+    public String toString() {
+        return "Photo{" +
+                "height=" + height +
+                ", htmlAttributions=" + htmlAttributions +
+                ", photoReference='" + photoReference + '\'' +
+                ", width=" + width +
+                '}';
+    }
 }

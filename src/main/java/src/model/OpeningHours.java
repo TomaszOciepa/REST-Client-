@@ -18,4 +18,10 @@ public class OpeningHours {
         this.openNow = openNow;
     }
 
+    @Override
+    public String toString() {
+        return "OpeningHours{" +
+                "openNow=" + openNow +
+                '}';
+    }
 }
